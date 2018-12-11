@@ -11,4 +11,13 @@
     <string name="Switch1">Auto backup</string>
     <string name="RadioButton1">Yes</string>
     <string name="RadioButton2">No</string>
+    <string name="TextLoginview">LOGIN</string>
+    <string name="EdittextEmail">Email</string>
+    <string name="EdittextPhone">Phone</string>
+    <string name="CheckboxIacc"><![CDATA[I accept T&C]]></string>
+    <string name="button3">SUBMIT</string>
+    <string name="spinner_example">SpinnerEX</string>
+    <string name="Letitsnowbutt">Let it snow</string>
+    <string name="Ginglesbellsbutt">Gingles bells</string>
+    <string name="happyholid_text">Happy holidays</string>
 </resources>

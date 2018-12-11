@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context="week3.Main4Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textLoginview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TextLoginview"
+            android:layout_marginTop="16dp"
+            android:textSize="20dp"
+            android:textColor="#c22121"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            />
+
+        <EditText
+            android:id="@+id/EdittextEmail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/EdittextEmail"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/EdittextPhone_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/EdittextPhone"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:id="@+id/CheckboxIaccept_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CheckboxIacc"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/button3_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/button3"
+            android:layout_marginTop="8dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

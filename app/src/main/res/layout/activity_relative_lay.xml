@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="week3.RelativeLayActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="@dimen/space_64"
+            android:layout_height="@dimen/space_64"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_64"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/space_32" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
